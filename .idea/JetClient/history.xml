@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1745768869068" />
+          <option name="id" value="a2f4050f-9b1b-418a-9634-ededcf9fb372" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="New Request" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOiIwMDBiNTViYS0zMzUyLTQ1MGYtOTdkMy0yOTUyNTgxOTlkMzciLCJ0aXRsZSI6IlRpdHVsbyBkZSB0ZXN0ZSIsImFtb3VudCI6MTAwMCwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjcgMTI6MDA6MDQiLCJzZXNzaW9uX2lkIjpudWxsfSx7ImlkIjoiOGE0NjQ4NTktZWRiOS00MmZkLTkzZTktMzgxNjVjOGU1M2I3IiwidGl0bGUiOiJUaXR1bG8gZGUgdGVzdGUiLCJhbW91bnQiOjEwMDAsImNyZWF0ZWRfYXQiOiIyMDI1LTA0LTI3IDEyOjAwOjUzIiwic2Vzc2lvbl9pZCI6bnVsbH1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;    &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;    &quot;amount&quot;: 1000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;    &quot;session_id&quot;: null&#10;  },&#10;  {&#10;    &quot;id&quot;: &quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&#10;    &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;    &quot;amount&quot;: 1000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 12:00:53&quot;,&#10;    &quot;session_id&quot;: null&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="279" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 15:47:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a2f4050f-9b1b-418a-9634-ededcf9fb372" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:53&quot;,&quot;session_id&quot;:null}]" />
+              <option name="size" value="279" />
+              <option name="time" value="23" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745769806233" />
+          <option name="id" value="2fed7100-d587-4a4d-8d80-67b72eb99660" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  title: &quot;Nova transação Criada&quot;,&#10;  amount: 8000,&#10;  type: &quot;credit&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="964fdcf7-c76b-4978-a10a-f24a075ff17c" />
+              <option name="method" value="POST" />
+              <option name="name" value="create" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="4" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 16:03:26 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2fed7100-d587-4a4d-8d80-67b72eb99660" />
+              <option name="message" value="Created" />
+              <option name="time" value="29" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745769810168" />
+          <option name="id" value="557dbdbc-7619-4310-91c0-04b8a8c957e0" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiUm91dGUgR0VUOi90cmFuc2FjdGlvbnMgbm90IGZvdW5kIiwiZXJyb3IiOiJOb3QgRm91bmQiLCJzdGF0dXNDb2RlIjo0MDR9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Route GET:/transactions not found&quot;,&#10;  &quot;error&quot;: &quot;Not Found&quot;,&#10;  &quot;statusCode&quot;: 404&#10;}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="84" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 16:03:30 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="557dbdbc-7619-4310-91c0-04b8a8c957e0" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Route GET:/transactions not found&quot;,&quot;error&quot;:&quot;Not Found&quot;,&quot;statusCode&quot;:404}" />
+              <option name="size" value="84" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745769851008" />
+          <option name="id" value="5e0693e3-8a80-4b47-ac9e-e70280776fe8" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3siaWQiOiIwMDBiNTViYS0zMzUyLTQ1MGYtOTdkMy0yOTUyNTgxOTlkMzciLCJ0aXRsZSI6IlRpdHVsbyBkZSB0ZXN0ZSIsImFtb3VudCI6MTAwMCwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjcgMTI6MDA6MDQiLCJzZXNzaW9uX2lkIjpudWxsfSx7ImlkIjoiOGE0NjQ4NTktZWRiOS00MmZkLTkzZTktMzgxNjVjOGU1M2I3IiwidGl0bGUiOiJUaXR1bG8gZGUgdGVzdGUiLCJhbW91bnQiOjEwMDAsImNyZWF0ZWRfYXQiOiIyMDI1LTA0LTI3IDEyOjAwOjUzIiwic2Vzc2lvbl9pZCI6bnVsbH0seyJpZCI6IjFmNDk0ODE0LTU2ZjctNDc2Ni05YmM1LWNjY2VkNWU5ZGU0NSIsInRpdGxlIjoiTm92YSB0cmFuc2HDp8OjbyBDcmlhZGEiLCJhbW91bnQiOjgwMDAsImNyZWF0ZWRfYXQiOiIyMDI1LTA0LTI3IDE2OjAzOjI2Iiwic2Vzc2lvbl9pZCI6bnVsbH1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;    &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;    &quot;amount&quot;: 1000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;    &quot;session_id&quot;: null&#10;  },&#10;  {&#10;    &quot;id&quot;: &quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&#10;    &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;    &quot;amount&quot;: 1000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 12:00:53&quot;,&#10;    &quot;session_id&quot;: null&#10;  },&#10;  {&#10;    &quot;id&quot;: &quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&#10;    &quot;title&quot;: &quot;Nova transação Criada&quot;,&#10;    &quot;amount&quot;: 8000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 16:03:26&quot;,&#10;    &quot;session_id&quot;: null&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="426" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 16:04:11 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5e0693e3-8a80-4b47-ac9e-e70280776fe8" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:53&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&quot;title&quot;:&quot;Nova transação Criada&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 16:03:26&quot;,&quot;session_id&quot;:null}]" />
+              <option name="size" value="426" />
+              <option name="time" value="19" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745769881152" />
+          <option name="id" value="df81122b-2de8-4c43-a58d-8c3a5c04b4de" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  title: &quot;Nova transação Criada&quot;,&#10;  amount: 8000,&#10;  type: &quot;credite&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="964fdcf7-c76b-4978-a10a-f24a075ff17c" />
+              <option name="method" value="POST" />
+              <option name="name" value="create" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXNDb2RlIjo1MDAsImVycm9yIjoiSW50ZXJuYWwgU2VydmVyIEVycm9yIiwibWVzc2FnZSI6IltcbiAge1xuICAgIFwicmVjZWl2ZWRcIjogXCJjcmVkaXRlXCIsXG4gICAgXCJjb2RlXCI6IFwiaW52YWxpZF9lbnVtX3ZhbHVlXCIsXG4gICAgXCJvcHRpb25zXCI6IFtcbiAgICAgIFwiY3JlZGl0XCIsXG4gICAgICBcImRlYml0XCJcbiAgICBdLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInR5cGVcIlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBlbnVtIHZhbHVlLiBFeHBlY3RlZCAnY3JlZGl0JyB8ICdkZWJpdCcsIHJlY2VpdmVkICdjcmVkaXRlJ1wiXG4gIH1cbl0ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;statusCode&quot;: 500,&#10;  &quot;error&quot;: &quot;Internal Server Error&quot;,&#10;  &quot;message&quot;: &quot;[\n  {\n    \&quot;received\&quot;: \&quot;credite\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_enum_value\&quot;,\n    \&quot;options\&quot;: [\n      \&quot;credit\&quot;,\n      \&quot;debit\&quot;\n    ],\n    \&quot;path\&quot;: [\n      \&quot;type\&quot;\n    ],\n    \&quot;message\&quot;: \&quot;Invalid enum value. Expected 'credit' | 'debit', received 'credite'\&quot;\n  }\n]&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="343" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 16:04:41 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="df81122b-2de8-4c43-a58d-8c3a5c04b4de" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;statusCode&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;[\n  {\n    \&quot;received\&quot;: \&quot;credite\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_enum_value\&quot;,\n    \&quot;options\&quot;: [\n      \&quot;credit\&quot;,\n      \&quot;debit\&quot;\n    ],\n    \&quot;path\&quot;: [\n      \&quot;type\&quot;\n    ],\n    \&quot;message\&quot;: \&quot;Invalid enum value. Expected 'credit' | 'debit', received 'credite'\&quot;\n  }\n]&quot;}" />
+              <option name="size" value="343" />
+              <option name="time" value="8" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777314919" />
+          <option name="id" value="b3eb05bc-1419-4519-ae0e-493c543c7523" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbnMiOlt7ImlkIjoiMDAwYjU1YmEtMzM1Mi00NTBmLTk3ZDMtMjk1MjU4MTk5ZDM3IiwidGl0bGUiOiJUaXR1bG8gZGUgdGVzdGUiLCJhbW91bnQiOjEwMDAsImNyZWF0ZWRfYXQiOiIyMDI1LTA0LTI3IDEyOjAwOjA0Iiwic2Vzc2lvbl9pZCI6bnVsbH0seyJpZCI6IjhhNDY0ODU5LWVkYjktNDJmZC05M2U5LTM4MTY1YzhlNTNiNyIsInRpdGxlIjoiVGl0dWxvIGRlIHRlc3RlIiwiYW1vdW50IjoxMDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxMjowMDo1MyIsInNlc3Npb25faWQiOm51bGx9LHsiaWQiOiIxZjQ5NDgxNC01NmY3LTQ3NjYtOWJjNS1jY2NlZDVlOWRlNDUiLCJ0aXRsZSI6Ik5vdmEgdHJhbnNhw6fDo28gQ3JpYWRhIiwiYW1vdW50Ijo4MDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxNjowMzoyNiIsInNlc3Npb25faWQiOm51bGx9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;transactions&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;      &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;      &quot;amount&quot;: 1000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;      &quot;session_id&quot;: null&#10;    },&#10;    {&#10;      &quot;id&quot;: &quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&#10;      &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;      &quot;amount&quot;: 1000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 12:00:53&quot;,&#10;      &quot;session_id&quot;: null&#10;    },&#10;    {&#10;      &quot;id&quot;: &quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&#10;      &quot;title&quot;: &quot;Nova transação Criada&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 16:03:26&quot;,&#10;      &quot;session_id&quot;: null&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="443" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:08:34 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b3eb05bc-1419-4519-ae0e-493c543c7523" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transactions&quot;:[{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:53&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&quot;title&quot;:&quot;Nova transação Criada&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 16:03:26&quot;,&quot;session_id&quot;:null}]}" />
+              <option name="size" value="443" />
+              <option name="time" value="20" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777502375" />
+          <option name="id" value="6ec4e7fa-d648-4601-a330-5c847dcf6043" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b88641dd-e64d-48bc-a685-2649fe207f6a" />
+              <option name="method" value="GET" />
+              <option name="name" value="transaction" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="{{baseURL}}/transactions/dsdsds" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXNDb2RlIjo1MDAsImVycm9yIjoiSW50ZXJuYWwgU2VydmVyIEVycm9yIiwibWVzc2FnZSI6IltcbiAge1xuICAgIFwidmFsaWRhdGlvblwiOiBcInV1aWRcIixcbiAgICBcImNvZGVcIjogXCJpbnZhbGlkX3N0cmluZ1wiLFxuICAgIFwibWVzc2FnZVwiOiBcIkludmFsaWQgdXVpZFwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcImlkXCJcbiAgICBdXG4gIH1cbl0ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;statusCode&quot;: 500,&#10;  &quot;error&quot;: &quot;Internal Server Error&quot;,&#10;  &quot;message&quot;: &quot;[\n  {\n    \&quot;validation\&quot;: \&quot;uuid\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_string\&quot;,\n    \&quot;message\&quot;: \&quot;Invalid uuid\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;id\&quot;\n    ]\n  }\n]&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="15" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="217" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:11:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6ec4e7fa-d648-4601-a330-5c847dcf6043" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;statusCode&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;[\n  {\n    \&quot;validation\&quot;: \&quot;uuid\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_string\&quot;,\n    \&quot;message\&quot;: \&quot;Invalid uuid\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;id\&quot;\n    ]\n  }\n]&quot;}" />
+              <option name="size" value="217" />
+              <option name="time" value="30" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777509103" />
+          <option name="id" value="cca1c8e3-3837-474d-800f-9fcb26ca005d" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbnMiOlt7ImlkIjoiMDAwYjU1YmEtMzM1Mi00NTBmLTk3ZDMtMjk1MjU4MTk5ZDM3IiwidGl0bGUiOiJUaXR1bG8gZGUgdGVzdGUiLCJhbW91bnQiOjEwMDAsImNyZWF0ZWRfYXQiOiIyMDI1LTA0LTI3IDEyOjAwOjA0Iiwic2Vzc2lvbl9pZCI6bnVsbH0seyJpZCI6IjhhNDY0ODU5LWVkYjktNDJmZC05M2U5LTM4MTY1YzhlNTNiNyIsInRpdGxlIjoiVGl0dWxvIGRlIHRlc3RlIiwiYW1vdW50IjoxMDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxMjowMDo1MyIsInNlc3Npb25faWQiOm51bGx9LHsiaWQiOiIxZjQ5NDgxNC01NmY3LTQ3NjYtOWJjNS1jY2NlZDVlOWRlNDUiLCJ0aXRsZSI6Ik5vdmEgdHJhbnNhw6fDo28gQ3JpYWRhIiwiYW1vdW50Ijo4MDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxNjowMzoyNiIsInNlc3Npb25faWQiOm51bGx9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;transactions&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;      &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;      &quot;amount&quot;: 1000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;      &quot;session_id&quot;: null&#10;    },&#10;    {&#10;      &quot;id&quot;: &quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&#10;      &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;      &quot;amount&quot;: 1000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 12:00:53&quot;,&#10;      &quot;session_id&quot;: null&#10;    },&#10;    {&#10;      &quot;id&quot;: &quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&#10;      &quot;title&quot;: &quot;Nova transação Criada&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 16:03:26&quot;,&#10;      &quot;session_id&quot;: null&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="443" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:11:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="cca1c8e3-3837-474d-800f-9fcb26ca005d" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transactions&quot;:[{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:53&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&quot;title&quot;:&quot;Nova transação Criada&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 16:03:26&quot;,&quot;session_id&quot;:null}]}" />
+              <option name="size" value="443" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777519975" />
+          <option name="id" value="989556cd-9da7-457b-87df-e2df551672b5" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b88641dd-e64d-48bc-a685-2649fe207f6a" />
+              <option name="method" value="GET" />
+              <option name="name" value="transaction" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="{{baseURL}}/transactions/000b55ba-3352-450f-97d3-295258199d37" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbiI6W3siaWQiOiIwMDBiNTViYS0zMzUyLTQ1MGYtOTdkMy0yOTUyNTgxOTlkMzciLCJ0aXRsZSI6IlRpdHVsbyBkZSB0ZXN0ZSIsImFtb3VudCI6MTAwMCwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjcgMTI6MDA6MDQiLCJzZXNzaW9uX2lkIjpudWxsfV19" />
+              <option name="bodyString" value="{&#10;  &quot;transaction&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;      &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;      &quot;amount&quot;: 1000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;      &quot;session_id&quot;: null&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="156" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:11:59 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="989556cd-9da7-457b-87df-e2df551672b5" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transaction&quot;:[{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null}]}" />
+              <option name="size" value="156" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777557563" />
+          <option name="id" value="ca9cfde7-1070-41e5-b52b-8a3643fd2383" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b88641dd-e64d-48bc-a685-2649fe207f6a" />
+              <option name="method" value="GET" />
+              <option name="name" value="transaction" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="{{baseURL}}/transactions/000b55ba-3352-450f-97d3-295258199d37" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbiI6eyJpZCI6IjAwMGI1NWJhLTMzNTItNDUwZi05N2QzLTI5NTI1ODE5OWQzNyIsInRpdGxlIjoiVGl0dWxvIGRlIHRlc3RlIiwiYW1vdW50IjoxMDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxMjowMDowNCIsInNlc3Npb25faWQiOm51bGx9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;transaction&quot;: {&#10;    &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;    &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;    &quot;amount&quot;: 1000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;    &quot;session_id&quot;: null&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="154" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:12:37 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ca9cfde7-1070-41e5-b52b-8a3643fd2383" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transaction&quot;:{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null}}" />
+              <option name="size" value="154" />
+              <option name="time" value="26" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777767120" />
+          <option name="id" value="89876681-38d1-45f8-ae5d-ed2dbf875e17" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiUm91dGUgR0VUOi9zdW1tYXJ5IG5vdCBmb3VuZCIsImVycm9yIjoiTm90IEZvdW5kIiwic3RhdHVzQ29kZSI6NDA0fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Route GET:/summary not found&quot;,&#10;  &quot;error&quot;: &quot;Not Found&quot;,&#10;  &quot;statusCode&quot;: 404&#10;}" />
+              <option name="code" value="404" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="79" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:16:07 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="89876681-38d1-45f8-ae5d-ed2dbf875e17" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Route GET:/summary not found&quot;,&quot;error&quot;:&quot;Not Found&quot;,&quot;statusCode&quot;:404}" />
+              <option name="size" value="79" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777803365" />
+          <option name="id" value="8aafa0e4-e11e-41be-85fa-9ac1b906a031" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7InRvdGFsIjoxMDAwMH19" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;total&quot;: 10000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="27" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:16:43 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8aafa0e4-e11e-41be-85fa-9ac1b906a031" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;total&quot;:10000}}" />
+              <option name="size" value="27" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777873311" />
+          <option name="id" value="7747e5bd-2f67-4246-8dae-356ff73b5f62" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7InN1bShgYW1vdW50YCkiOjEwMDAwfX0=" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;sum(`amount`)&quot;: 10000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="35" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:17:53 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7747e5bd-2f67-4246-8dae-356ff73b5f62" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;sum(`amount`)&quot;:10000}}" />
+              <option name="size" value="35" />
+              <option name="time" value="18" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745777902455" />
+          <option name="id" value="8edf03a5-4e50-4aca-a560-39bee2bb3b58" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7ImFtb3VudCI6MTAwMDB9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;amount&quot;: 10000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 18:18:22 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8edf03a5-4e50-4aca-a560-39bee2bb3b58" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;amount&quot;:10000}}" />
+              <option name="size" value="28" />
+              <option name="time" value="21" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781125889" />
+          <option name="id" value="e5e40f0d-97bd-4843-912f-df54873a5998" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  title: &quot;Freeelancer&quot;,&#10;  amount: 8000,&#10;  type: &quot;credite&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="964fdcf7-c76b-4978-a10a-f24a075ff17c" />
+              <option name="method" value="POST" />
+              <option name="name" value="create" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdGF0dXNDb2RlIjo1MDAsImVycm9yIjoiSW50ZXJuYWwgU2VydmVyIEVycm9yIiwibWVzc2FnZSI6IltcbiAge1xuICAgIFwicmVjZWl2ZWRcIjogXCJjcmVkaXRlXCIsXG4gICAgXCJjb2RlXCI6IFwiaW52YWxpZF9lbnVtX3ZhbHVlXCIsXG4gICAgXCJvcHRpb25zXCI6IFtcbiAgICAgIFwiY3JlZGl0XCIsXG4gICAgICBcImRlYml0XCJcbiAgICBdLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInR5cGVcIlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBlbnVtIHZhbHVlLiBFeHBlY3RlZCAnY3JlZGl0JyB8ICdkZWJpdCcsIHJlY2VpdmVkICdjcmVkaXRlJ1wiXG4gIH1cbl0ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;statusCode&quot;: 500,&#10;  &quot;error&quot;: &quot;Internal Server Error&quot;,&#10;  &quot;message&quot;: &quot;[\n  {\n    \&quot;received\&quot;: \&quot;credite\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_enum_value\&quot;,\n    \&quot;options\&quot;: [\n      \&quot;credit\&quot;,\n      \&quot;debit\&quot;\n    ],\n    \&quot;path\&quot;: [\n      \&quot;type\&quot;\n    ],\n    \&quot;message\&quot;: \&quot;Invalid enum value. Expected 'credit' | 'debit', received 'credite'\&quot;\n  }\n]&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="343" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:12:05 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e5e40f0d-97bd-4843-912f-df54873a5998" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;statusCode&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;[\n  {\n    \&quot;received\&quot;: \&quot;credite\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_enum_value\&quot;,\n    \&quot;options\&quot;: [\n      \&quot;credit\&quot;,\n      \&quot;debit\&quot;\n    ],\n    \&quot;path\&quot;: [\n      \&quot;type\&quot;\n    ],\n    \&quot;message\&quot;: \&quot;Invalid enum value. Expected 'credit' | 'debit', received 'credite'\&quot;\n  }\n]&quot;}" />
+              <option name="size" value="343" />
+              <option name="time" value="21" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781133447" />
+          <option name="id" value="7067b753-403a-482d-8646-8d090bdd7fd4" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  title: &quot;Freeelancer&quot;,&#10;  amount: 8000,&#10;  type: &quot;credit&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="964fdcf7-c76b-4978-a10a-f24a075ff17c" />
+              <option name="method" value="POST" />
+              <option name="name" value="create" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="set-cookie" />
+                    <option name="value" value="sessionId=17c25a3a-e663-4f9a-a2a0-67b7f37398a1; Max-Age=2592000000; Path=/; SameSite=Lax" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="0" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:12:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7067b753-403a-482d-8646-8d090bdd7fd4" />
+              <option name="message" value="Created" />
+              <option name="time" value="18" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781169666" />
+          <option name="id" value="0af0d58e-7e1c-4f7b-921e-c12ec828ade4" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbnMiOlt7ImlkIjoiMDAwYjU1YmEtMzM1Mi00NTBmLTk3ZDMtMjk1MjU4MTk5ZDM3IiwidGl0bGUiOiJUaXR1bG8gZGUgdGVzdGUiLCJhbW91bnQiOjEwMDAsImNyZWF0ZWRfYXQiOiIyMDI1LTA0LTI3IDEyOjAwOjA0Iiwic2Vzc2lvbl9pZCI6bnVsbH0seyJpZCI6IjhhNDY0ODU5LWVkYjktNDJmZC05M2U5LTM4MTY1YzhlNTNiNyIsInRpdGxlIjoiVGl0dWxvIGRlIHRlc3RlIiwiYW1vdW50IjoxMDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxMjowMDo1MyIsInNlc3Npb25faWQiOm51bGx9LHsiaWQiOiIxZjQ5NDgxNC01NmY3LTQ3NjYtOWJjNS1jY2NlZDVlOWRlNDUiLCJ0aXRsZSI6Ik5vdmEgdHJhbnNhw6fDo28gQ3JpYWRhIiwiYW1vdW50Ijo4MDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxNjowMzoyNiIsInNlc3Npb25faWQiOm51bGx9LHsiaWQiOiI1OWM4MWU1YS1lMWM5LTQ1MzItYTY1Mi03Y2FjMmNkYTQ2MTQiLCJ0aXRsZSI6IkZyZWVlbGFuY2VyIiwiYW1vdW50Ijo4MDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxOToxMjoxMyIsInNlc3Npb25faWQiOiIxN2MyNWEzYS1lNjYzLTRmOWEtYTJhMC02N2I3ZjM3Mzk4YTEifV19" />
+              <option name="bodyString" value="{&#10;  &quot;transactions&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;      &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;      &quot;amount&quot;: 1000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;      &quot;session_id&quot;: null&#10;    },&#10;    {&#10;      &quot;id&quot;: &quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&#10;      &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;      &quot;amount&quot;: 1000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 12:00:53&quot;,&#10;      &quot;session_id&quot;: null&#10;    },&#10;    {&#10;      &quot;id&quot;: &quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&#10;      &quot;title&quot;: &quot;Nova transação Criada&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 16:03:26&quot;,&#10;      &quot;session_id&quot;: null&#10;    },&#10;    {&#10;      &quot;id&quot;: &quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&#10;      &quot;title&quot;: &quot;Freeelancer&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 19:12:13&quot;,&#10;      &quot;session_id&quot;: &quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="612" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:12:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0af0d58e-7e1c-4f7b-921e-c12ec828ade4" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transactions&quot;:[{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;8a464859-edb9-42fd-93e9-38165c8e53b7&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:53&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;1f494814-56f7-4766-9bc5-ccced5e9de45&quot;,&quot;title&quot;:&quot;Nova transação Criada&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 16:03:26&quot;,&quot;session_id&quot;:null},{&quot;id&quot;:&quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&quot;title&quot;:&quot;Freeelancer&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 19:12:13&quot;,&quot;session_id&quot;:&quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;}]}" />
+              <option name="size" value="612" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781436275" />
+          <option name="id" value="eb9be826-264d-4c4a-bdff-e9dc436d7a38" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbnMiOlt7ImlkIjoiNTljODFlNWEtZTFjOS00NTMyLWE2NTItN2NhYzJjZGE0NjE0IiwidGl0bGUiOiJGcmVlZWxhbmNlciIsImFtb3VudCI6ODAwMCwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjcgMTk6MTI6MTMiLCJzZXNzaW9uX2lkIjoiMTdjMjVhM2EtZTY2My00ZjlhLWEyYTAtNjdiN2YzNzM5OGExIn1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;transactions&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&#10;      &quot;title&quot;: &quot;Freeelancer&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 19:12:13&quot;,&#10;      &quot;session_id&quot;: &quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="187" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:17:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="eb9be826-264d-4c4a-bdff-e9dc436d7a38" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transactions&quot;:[{&quot;id&quot;:&quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&quot;title&quot;:&quot;Freeelancer&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 19:12:13&quot;,&quot;session_id&quot;:&quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;}]}" />
+              <option name="size" value="187" />
+              <option name="time" value="20" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781853577" />
+          <option name="id" value="1df854f7-a9d7-4e00-bfe1-b5a25b832f58" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbnMiOlt7ImlkIjoiNTljODFlNWEtZTFjOS00NTMyLWE2NTItN2NhYzJjZGE0NjE0IiwidGl0bGUiOiJGcmVlZWxhbmNlciIsImFtb3VudCI6ODAwMCwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjcgMTk6MTI6MTMiLCJzZXNzaW9uX2lkIjoiMTdjMjVhM2EtZTY2My00ZjlhLWEyYTAtNjdiN2YzNzM5OGExIn1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;transactions&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&#10;      &quot;title&quot;: &quot;Freeelancer&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 19:12:13&quot;,&#10;      &quot;session_id&quot;: &quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="187" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:24:13 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1df854f7-a9d7-4e00-bfe1-b5a25b832f58" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transactions&quot;:[{&quot;id&quot;:&quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&quot;title&quot;:&quot;Freeelancer&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 19:12:13&quot;,&quot;session_id&quot;:&quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;}]}" />
+              <option name="size" value="187" />
+              <option name="time" value="19" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781855947" />
+          <option name="id" value="1c7e80e0-6270-437a-8089-00ac6391bba2" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7ImFtb3VudCI6MTgwMDB9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;amount&quot;: 18000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:24:15 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1c7e80e0-6270-437a-8089-00ac6391bba2" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;amount&quot;:18000}}" />
+              <option name="size" value="28" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781861497" />
+          <option name="id" value="2a1fdd41-c995-4350-bf0d-10c50623fe73" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b88641dd-e64d-48bc-a685-2649fe207f6a" />
+              <option name="method" value="GET" />
+              <option name="name" value="transaction" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="{{baseURL}}/transactions/000b55ba-3352-450f-97d3-295258199d37" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbiI6eyJpZCI6IjAwMGI1NWJhLTMzNTItNDUwZi05N2QzLTI5NTI1ODE5OWQzNyIsInRpdGxlIjoiVGl0dWxvIGRlIHRlc3RlIiwiYW1vdW50IjoxMDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxMjowMDowNCIsInNlc3Npb25faWQiOm51bGx9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;transaction&quot;: {&#10;    &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;    &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;    &quot;amount&quot;: 1000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;    &quot;session_id&quot;: null&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="154" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:24:21 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2a1fdd41-c995-4350-bf0d-10c50623fe73" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transaction&quot;:{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null}}" />
+              <option name="size" value="154" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781864514" />
+          <option name="id" value="318fd0ad-a052-44d4-a816-36b3b0d02b39" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b88641dd-e64d-48bc-a685-2649fe207f6a" />
+              <option name="method" value="GET" />
+              <option name="name" value="transaction" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="{{baseURL}}/transactions/000b55ba-3352-450f-97d3-295258199d37" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbiI6eyJpZCI6IjAwMGI1NWJhLTMzNTItNDUwZi05N2QzLTI5NTI1ODE5OWQzNyIsInRpdGxlIjoiVGl0dWxvIGRlIHRlc3RlIiwiYW1vdW50IjoxMDAwLCJjcmVhdGVkX2F0IjoiMjAyNS0wNC0yNyAxMjowMDowNCIsInNlc3Npb25faWQiOm51bGx9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;transaction&quot;: {&#10;    &quot;id&quot;: &quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&#10;    &quot;title&quot;: &quot;Titulo de teste&quot;,&#10;    &quot;amount&quot;: 1000,&#10;    &quot;created_at&quot;: &quot;2025-04-27 12:00:04&quot;,&#10;    &quot;session_id&quot;: null&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="154" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:24:24 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="318fd0ad-a052-44d4-a816-36b3b0d02b39" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transaction&quot;:{&quot;id&quot;:&quot;000b55ba-3352-450f-97d3-295258199d37&quot;,&quot;title&quot;:&quot;Titulo de teste&quot;,&quot;amount&quot;:1000,&quot;created_at&quot;:&quot;2025-04-27 12:00:04&quot;,&quot;session_id&quot;:null}}" />
+              <option name="size" value="154" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745781870839" />
+          <option name="id" value="5fcb26e9-a9a1-49e6-97c1-c15e61991ced" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7ImFtb3VudCI6MTgwMDB9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;amount&quot;: 18000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="28" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:24:30 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5fcb26e9-a9a1-49e6-97c1-c15e61991ced" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;amount&quot;:18000}}" />
+              <option name="size" value="28" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745782368155" />
+          <option name="id" value="26d134bd-b041-4627-8a32-58210a716782" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbnMiOlt7ImlkIjoiNTljODFlNWEtZTFjOS00NTMyLWE2NTItN2NhYzJjZGE0NjE0IiwidGl0bGUiOiJGcmVlZWxhbmNlciIsImFtb3VudCI6ODAwMCwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjcgMTk6MTI6MTMiLCJzZXNzaW9uX2lkIjoiMTdjMjVhM2EtZTY2My00ZjlhLWEyYTAtNjdiN2YzNzM5OGExIn1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;transactions&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&#10;      &quot;title&quot;: &quot;Freeelancer&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 19:12:13&quot;,&#10;      &quot;session_id&quot;: &quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="187" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:32:48 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="26d134bd-b041-4627-8a32-58210a716782" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transactions&quot;:[{&quot;id&quot;:&quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&quot;title&quot;:&quot;Freeelancer&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 19:12:13&quot;,&quot;session_id&quot;:&quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;}]}" />
+              <option name="size" value="187" />
+              <option name="time" value="18" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745782371628" />
+          <option name="id" value="3fc98fc7-9b38-4bfc-865e-1b1bc8e72ce4" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7ImFtb3VudCI6ODAwMH19" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;amount&quot;: 8000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="27" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:32:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3fc98fc7-9b38-4bfc-865e-1b1bc8e72ce4" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;amount&quot;:8000}}" />
+              <option name="size" value="27" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745782373670" />
+          <option name="id" value="4de68e83-1e9c-4f33-9d5b-2557580df047" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7ImFtb3VudCI6ODAwMH19" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;amount&quot;: 8000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="27" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:32:53 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4de68e83-1e9c-4f33-9d5b-2557580df047" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;amount&quot;:8000}}" />
+              <option name="size" value="27" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745782374692" />
+          <option name="id" value="a6f345d5-99b3-4f1b-b497-d02642fc4af3" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7ImFtb3VudCI6ODAwMH19" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;amount&quot;: 8000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="27" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:32:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a6f345d5-99b3-4f1b-b497-d02642fc4af3" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;amount&quot;:8000}}" />
+              <option name="size" value="27" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745782375775" />
+          <option name="id" value="92e9ba2d-604e-495f-be6f-1b95ead673fd" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="c30df1b1-9465-4822-b657-884932869dfd" />
+              <option name="method" value="GET" />
+              <option name="name" value="summary" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="{{baseURL}}/transactions/summary" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJzdW1tYXJ5Ijp7ImFtb3VudCI6ODAwMH19" />
+              <option name="bodyString" value="{&#10;  &quot;summary&quot;: {&#10;    &quot;amount&quot;: 8000&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="27" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:32:55 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="92e9ba2d-604e-495f-be6f-1b95ead673fd" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;summary&quot;:{&quot;amount&quot;:8000}}" />
+              <option name="size" value="27" />
+              <option name="time" value="4" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745782380175" />
+          <option name="id" value="af894b0c-6f4a-4c09-88eb-4365bf7417ad" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="b88641dd-e64d-48bc-a685-2649fe207f6a" />
+              <option name="method" value="GET" />
+              <option name="name" value="transaction" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="{{baseURL}}/transactions/000b55ba-3352-450f-97d3-295258199d37" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="e30=" />
+              <option name="bodyString" value="{}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="2" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:33:00 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="af894b0c-6f4a-4c09-88eb-4365bf7417ad" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{}" />
+              <option name="size" value="2" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1745782516593" />
+          <option name="id" value="604a4c86-0065-4346-8055-5b329752e51e" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="d321de2b-5bf4-4112-80d7-5c8ddbd09877" />
+              <option name="method" value="GET" />
+              <option name="name" value="transactions" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="{{baseURL}}/transactions" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0cmFuc2FjdGlvbnMiOlt7ImlkIjoiNTljODFlNWEtZTFjOS00NTMyLWE2NTItN2NhYzJjZGE0NjE0IiwidGl0bGUiOiJGcmVlZWxhbmNlciIsImFtb3VudCI6ODAwMCwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjcgMTk6MTI6MTMiLCJzZXNzaW9uX2lkIjoiMTdjMjVhM2EtZTY2My00ZjlhLWEyYTAtNjdiN2YzNzM5OGExIn1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;transactions&quot;: [&#10;    {&#10;      &quot;id&quot;: &quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&#10;      &quot;title&quot;: &quot;Freeelancer&quot;,&#10;      &quot;amount&quot;: 8000,&#10;      &quot;created_at&quot;: &quot;2025-04-27 19:12:13&quot;,&#10;      &quot;session_id&quot;: &quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="187" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 27 Apr 2025 19:35:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=72" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="604a4c86-0065-4346-8055-5b329752e51e" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;transactions&quot;:[{&quot;id&quot;:&quot;59c81e5a-e1c9-4532-a652-7cac2cda4614&quot;,&quot;title&quot;:&quot;Freeelancer&quot;,&quot;amount&quot;:8000,&quot;created_at&quot;:&quot;2025-04-27 19:12:13&quot;,&quot;session_id&quot;:&quot;17c25a3a-e663-4f9a-a2a0-67b7f37398a1&quot;}]}" />
+              <option name="size" value="187" />
+              <option name="time" value="17" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="197f9c41-bf10-4ce5-bac0-f827fe531a59" />
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>
